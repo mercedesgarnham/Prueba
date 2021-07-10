@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <title>My page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css"
 </head>
 <body>
     <nav>
         <ul>
             <li> <a href = '#introduccion' > Inicio </a> </li>
             <li> <a href = '#curriculum' > Academic </a> </li>
+            <li> <a href = '#section.fotos' > Photos </a> </li>
         </ul>
     </nav>
     <h1>My FIRST WebPage</h1>
-    <section id="introduccion">
-        <h2>Introduction</h2>
+    <section class="intro" id="introduccion">
+        <h1>Introduction</h1>
         <p>This is the test webpage, stay tune for more!</p>
         <figure>
             <img src="Foto.jpg" alt="Me">
             <figcaption> This is me </figcaption>
         </figure>
     </section>
-    <section id="curriculum">
+    <section class="academic" id="curriculum">
         <h2>Academic</h2>
         <a href= "https://www.linkedin.com/in/mercedes-didier-garnham-67242a151/"> LinkedID </a>
         <p>This is my academic curriculum!</p>
@@ -37,6 +39,12 @@
         </ol>
         <p> Deja tu comentario </p>
         <input> </input>
+    </section>
+    <section class="galeriafotos" id="section.fotos">
+        <h2> Mis fotos </h2>
+        <img src="1.jpg">
+        <img src="2.jpg">
+        <img src="3.jpg">
     </section>
 </body>
 </html>
