@@ -1,0 +1,35 @@
+body {
+    margin: 0 auto;
+    background-color: white;
+    border: 5px solid black;
+  }
+
+.academic {
+    text-align: center;
+    background-color: pink;
+    width:250 px;
+    border:solid 2px blueviolet;
+}
+
+.intro {
+    text-align: center;
+    background-color: powderblue;
+    width:250 px;
+    border:solid 2px lightskyblue;
+}
+
+.intro h1{
+    font-size: 20px;
+}
+
+.galeriafotos {
+    text-align: center;
+    background-color: plum ;
+    width:250 px;
+    border:solid 2px violet;
+    display: block;
+}
+
+.galeriafotos img{
+    width: 250px;    
+}
